@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ./resource
+typora-copy-images-to: ./bitbook_resource
 ---
 
 本开源框架是一个简单的基于Java SpringBoot开发的网站和API的后台。
