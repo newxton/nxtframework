@@ -28,7 +28,9 @@ typora-copy-images-to: ./bitbook_resource
 
 3、上传保存在本地的图片也支持自动生成缩略图（仿七牛云）；
 
-4、可docker-compose一键启动，已配置好nginx文件，支持ssl，只要修改绑定域名和证书文件即可；
+4、前后端分离，且提供“搜索引擎SEO特供版渲染”；
+
+5、可docker-compose一键启动，已配置好nginx文件，支持ssl，只要修改绑定域名和证书文件即可；
 
 
 
@@ -42,5 +44,5 @@ typora-copy-images-to: ./bitbook_resource
 
 ##### 技术架构图：
 
-![image-20201002193247580](bitbook_resource/image-20201002193247580.png)
+![image-20201026155843783](gitbook_resource/image-20201026155843783.png)
 
