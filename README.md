@@ -4,13 +4,19 @@ typora-copy-images-to: ./bitbook_resource
 
 一个CMS和后端Api系统，基于Java Springboot，且拥有标准的ACL权限控制。本人为了做项目方便，就特意搞了这个东西，用来二次开发，方便实用。
 
-本人会逐渐提供完整、详细的文档资料和接口资料。
-
 
 
 **^_^**
 
 **基于本项目做二开，只需配备一名初级Java工程师和一名初级前端工程师，在成本和效率上媲美”世界上最好的语言“。**
+
+
+
+#### 二次开发：
+
+1、Vue-Element-Admin后台源码：https://github.com/soyojoearth/nxtframework_admin
+
+2、Api接口文档：
 
 
 
@@ -83,4 +89,6 @@ docker-compose -f docker-compose-quickstart.yml up
 #### 技术架构图：
 
 ![image-20201026155843783](gitbook_resource/image-20201026155843783.png)
+
+
 
