@@ -16,7 +16,9 @@ typora-copy-images-to: ./bitbook_resource
 
 1、Vue-Element-Admin后台源码：https://github.com/soyojoearth/nxtframework_admin
 
-2、Api接口文档：
+2、Api接口文档：请clone项目后打开 document/nxtframework_api.html
+
+3、数据库文档：请clone项目后打开 document/数据库结构.docx
 
 
 
