@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ./bitbook_resource
+typora-copy-images-to: ./gitbook_resource
 ---
 
 一个CMS和后端Api系统，基于Java Springboot，且拥有标准的ACL权限控制。本人为了做项目方便，就特意搞了这个东西，用来二次开发，方便实用。
@@ -10,7 +10,7 @@ typora-copy-images-to: ./bitbook_resource
 
 **^_^**
 
-**基于本项目做二开，只需配备一名初级Java工程师和一名初级前端工程师，在成本和效率上媲美”世界上最好的语言“。**
+**基于本项目做二开，只需配备一位Java工程师和一位前端工程师，在成本和效率上可媲美”世界上最好的语言“。**
 
 
 
@@ -34,19 +34,18 @@ typora-copy-images-to: ./bitbook_resource
 
 #### 单机部署方式：
 
-**1、clone项目，配置数据库：**
+**1、clone项目，用docker创建数据库镜像：**
 
 ```
 git clone https://github.com/soyojoearth/nxtframework.git
-cd wwwroot/mysql
+cd nxtframework/wwwroot/db/
 #创建、启动docker数据库（仅供测试）
 docker build --tag nxtmysql:0.1.0 .
-docker-compose -f docker-compose-nxtmysql.yml up
+#回到项目目录
+cd ../../
 ```
 
-**2、按照`docker-compose-nxtmysql.yml`里面的数据库与用户名密码配置项目文件数据库链接**
-
-**3、到项目根目录，执行：**
+**2、到项目根目录，执行：**
 
 
 ```
@@ -56,8 +55,28 @@ mvn package
 docker build --tag nxtframework:0.1.0 .
 #启动本地测试
 cd wwwroot
-docker-compose -f docker-compose-quickstart.yml up
+docker-compose -f docker-compose-quickstart-with-db.yml up
 ```
+
+**3、然后浏览器打开：`http://127.0.0.1:8686/admin`  用户名：`admin` 密码：`12345678`**
+
+**4、如何启用80端口、部署SSL：**
+
+添加以下hosts
+
+`127.0.0.1  test.nxtframework.com`
+
+打开浏览器访问：http://test.nxtframework.com/admin 和 https://test.nxtframework.com/admin
+
+**5、如何更换域名、证书：**
+
+修改`wwwroot/http/nginx.conf`文件，将域名修改成自己的域名；
+
+更换`wwwroot/http/ssl*` 两个证书文件；
+
+**6、其它**
+
+一般不建议用docker部署mysql，正式商用时，还请使用独立的mysql数据库，使用 `docker-compose-quickstart.yml` 启动应用
 
 
 
