@@ -85,7 +85,7 @@ cd ../../
 
 ```
 #打包
-mvn package
+mvn package -Dmaven.test.skip=true
 #创建镜像
 docker build --tag nxtframework:0.1.0 .
 #启动本地测试
