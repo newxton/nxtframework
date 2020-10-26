@@ -4,6 +4,8 @@ typora-copy-images-to: ./bitbook_resource
 
 一个CMS和后端Api系统，基于Java Springboot，且拥有标准的ACL权限控制。本人为了做项目方便，就特意搞了这个东西，用来二次开发，方便实用。
 
+后续还会不断加入：电商模块、直播模块、AI内容辨别模块，敬请期待。
+
 
 
 **^_^**
@@ -19,6 +21,14 @@ typora-copy-images-to: ./bitbook_resource
 2、Api接口文档：请clone项目后打开 document/nxtframework_api.html
 
 3、数据库文档：请clone项目后打开 document/数据库结构.docx
+
+
+
+#### Demo：
+
+1、地址：https://demo.nxtframework.com/admin 
+
+2、用户名：guest 密码：fxxkyou1314 （访客权限，只能看，不能改）
 
 
 
