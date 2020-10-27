@@ -65,6 +65,12 @@ typora-copy-images-to: ./gitbook_resource
 
 
 
+#### 后台预览图：
+
+![image-20201027220102962](gitbook_resource/image-20201027220102962.png)
+
+
+
 #### 单机部署方式：
 
 **1、clone项目，用docker创建数据库镜像：**
@@ -118,3 +124,4 @@ docker-compose -f docker-compose-quickstart-with-db.yml up
 1、使用k8s部署；
 
 2、完。
+
