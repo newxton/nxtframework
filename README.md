@@ -2,7 +2,7 @@
 typora-copy-images-to: ./gitbook_resource
 ---
 
-一个CMS和后端Api系统，基于Java Springboot，且拥有标准的ACL权限控制。
+一个CMS和后端Api系统，基于Java Springboot，且拥有标准的ACL权限控制、缓存、自动缩略图、图片搬运等功能。
 
 
 
