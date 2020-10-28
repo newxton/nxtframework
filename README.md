@@ -71,6 +71,12 @@ typora-copy-images-to: ./gitbook_resource
 
 
 
+#### API文档图：
+
+![image-20201027220342585](gitbook_resource/image-20201027220342585.png)
+
+
+
 #### 单机部署方式：
 
 **1、clone项目，用docker创建数据库镜像：**
