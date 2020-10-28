@@ -61,7 +61,7 @@ typora-copy-images-to: ./gitbook_resource
 
 #### 技术架构图：
 
-![image-20201026155843783](gitbook_resource/image-20201026155843783.png)
+![image-20201028154515720](gitbook_resource/image-20201028154515720.png)
 
 
 
