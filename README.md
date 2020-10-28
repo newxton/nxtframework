@@ -73,7 +73,7 @@ typora-copy-images-to: ./gitbook_resource
 
 #### API文档图：
 
-![image-20201027220342585](gitbook_resource/image-20201027220342585.png)
+![image-20201028201632356](gitbook_resource/image-20201028201632356.png)
 
 
 
