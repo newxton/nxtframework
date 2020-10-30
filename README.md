@@ -18,13 +18,11 @@ typora-copy-images-to: ./gitbook_resource
 
 3、产品（商品）管理（开发中）；
 
-4、订单模块（排队中）；
+4、订单模块（开发中）；
 
-5、Elasticsearch搜索（排队中）；
+5、Elasticsearch搜索（开发中）；
 
-6、直播模块（排队中）；
-
-
+6、分销管理（开发中）；
 
 
 
@@ -78,16 +76,6 @@ typora-copy-images-to: ./gitbook_resource
 ![image-20201028154515720](gitbook_resource/image-20201028154515720.png)
 
 
-
-#### 后台预览图：
-
-![image-20201027220102962](gitbook_resource/image-20201027220102962.png)
-
-
-
-#### API文档图：
-
-![image-20201028201632356](gitbook_resource/image-20201028201632356.png)
 
 
 
