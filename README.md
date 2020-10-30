@@ -2,7 +2,7 @@
 typora-copy-images-to: ./gitbook_resource
 ---
 
-这是一个开源的电商系统，基于Java Springboot，Api文档齐全。
+这是一个开源的电商系统，基于Java Springboot，Api文档齐全。支持PC、H5、小程序、Android、iOS。
 
 
 
