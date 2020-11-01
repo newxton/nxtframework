@@ -65,11 +65,9 @@ typora-copy-images-to: ./gitbook_resource
 
 2、上传保存在本地的图片也支持自动生成缩略图（仿七牛云）；
 
-3、前后端分离，且提供“搜索引擎SEO特供版渲染”；
+3、可docker-compose一键启动，已配置好nginx文件，支持ssl，只要修改绑定域名和证书文件即可；
 
-4、可docker-compose一键启动，已配置好nginx文件，支持ssl，只要修改绑定域名和证书文件即可；
-
-5、具备Docker HEALTHCHECK 、Docker autoheal，自动检测健康状态，发现故障自动重启；
+4、具备Docker HEALTHCHECK 、Docker autoheal，自动检测健康状态，发现故障自动重启；
 
 
 
