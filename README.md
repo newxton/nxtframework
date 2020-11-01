@@ -2,15 +2,17 @@
 typora-copy-images-to: ./gitbook_resource
 ---
 
-这是一个开源的电商系统，基于Java Springboot，Api文档齐全。支持PC、H5、小程序、Android、iOS。
+这是一个开源免费的**电商独立站**系统，基于Java Springboot，Api文档齐全，让小公司和个人在建立电商品牌时，大大降低技术成本。
+
+支持PC、H5、小程序、Android、iOS。
 
 
 
-**基于本项目做二开，只需配备一位Java工程师和一位前端工程师，在成本、效率上可超越”世界上最好的语言“。**
+**基于本项目做二开，在成本、效率上可超越”世界上最好的语言“。**
 
 
 
-#### 不过，本项目正在开发中，感谢关注：
+#### 不过，本项目正在开发中，感谢关注，敬请期待：
 
 1、ACL权限控制模块（完成）；
 
@@ -73,7 +75,7 @@ typora-copy-images-to: ./gitbook_resource
 
 #### 技术架构图：
 
-![image-20201028154515720](gitbook_resource/image-20201028154515720.png)
+![image-20201101104755959](gitbook_resource/image-20201101104755959.png)
 
 
 
